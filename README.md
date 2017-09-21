@@ -1,2 +1,2 @@
 # friday
-The sucessor of Jarvis
+The successor of Jarvis

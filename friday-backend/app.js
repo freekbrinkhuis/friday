@@ -33,7 +33,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 //ROUTER ADD FOR PATH PREFIX
 
 app.use('/', index);
-
+app.use('/api/pipelines', pipelines);
+app.use('/api/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
